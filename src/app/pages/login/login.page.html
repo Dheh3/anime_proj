@@ -1,0 +1,62 @@
+<ion-content class="fundo">
+
+  <div class="mid1">
+    <div class="mid1_1"><br><br><br>
+
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <img src="../../../assets/botao-play.png" class="logo" alt="and_logo">
+
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+
+    </div>
+  </div>
+  <div class="mid2">
+    <div class="mid2_2">
+      <div class="botoes">
+        <ion-button id="open-modal" expand="full" shape="round" color="light">
+          <ion-icon name="log-in-outline"></ion-icon>
+          LOGIN
+        </ion-button><br>
+        <ion-button expand="full" shape="round">
+          <ion-icon name="person-add-outline"></ion-icon>
+          CADASTRE-SE
+        </ion-button>
+      </div>
+
+
+      <div class="sub_div">
+
+        <ion-icon class="att" size="large" name="logo-discord" color="light"></ion-icon>
+        <ion-icon class="att" size="large" name="logo-facebook" color="light"></ion-icon>
+        <ion-icon class="att" size="large" name="logo-instagram" color="light"></ion-icon>
+        <ion-icon class="att" size="large" name="logo-twitter" color="light"></ion-icon>
+
+      </div>
+    </div>
+  </div>
+
+  <!--==============================================-->
+
+  <ion-modal trigger="open-modal" [initialBreakpoint]="1" [breakpoints]="[0, 1]">
+    <ng-template>
+      <div class="ion-text-left ajuste2"><br><br>
+
+        <h4 class="ion-text-center">Login</h4><br>
+        <ion-input placeholder="Usuario" class="primary-input"></ion-input>
+        <ion-input placeholder="Senha" class="primary-input" type="password"></ion-input>
+        <div class="ion-margin-top ion-text-right">
+          <a href="" class="esq_senha">Esqueci a senha</a>
+        </div><br>
+        <div class="ion-margin-top">
+          <ion-button expand="full" shape="round" (click)="navigateToPage()">Entrar</ion-button>
+        </div>
+
+
+      </div>
+    </ng-template>
+  </ion-modal>
+</ion-content>
