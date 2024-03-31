@@ -130,7 +130,7 @@ img {
     height: 100%;
     //border: 1px solid red;
     background: var(--ion-color-quaternary);
-    border-bottom-right-radius: 25%;
+    border-bottom-right-radius: 25em;
 
 }
 
@@ -145,7 +145,7 @@ img {
     height: 100%;
     //border: 1px solid red;
     background: var(--ion-color-primary);
-    border-top-left-radius: 25%;
+    border-top-left-radius: 15em;
 }
 
 .logo {
@@ -194,7 +194,7 @@ ion-button {
     border-bottom-left-radius: 30%;
     border-bottom-right-radius: 30%;
     box-shadow: 8px 0px 26px var(--ion-color-primary);
-
+    
 }
 
 ion-menu::part(backdrop) {
@@ -292,8 +292,10 @@ ion-searchbar.custom {
     --placeholder-color: #fff;
     --icon-color: #fff;
     --clear-button-color: #fff;
-    width: 90%;
+      width: 90%;
     --border-radius: 25em;
+    border:red 1px solid;
+    
 }
 
 
